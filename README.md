@@ -1,3 +1,5 @@
+Old Code...may be incomplete or missing data....reference at your own risk
+
 StockSentimentNN
 ================
 Introduction
@@ -21,7 +23,7 @@ Tool Choices
 After some initial experimentation with WEKA and Matlab, I decided to use a Python package called PyBrain. PyBrain has a number of classes to handle building, training and evaluation neural networks. Ultimately the decision to use PyBrain was driven by a combination of comfort (I found WEKA frustrating to import data into) to economic (I didn’t want to purchase the Neural Network package). Additionally, it offered me the opportunity to evaluate a python machine-learning package for future use in a full system.
 PyBrain itself is not terrifically documented, although it’s quick start guide is sufficient for gaining some traction and quickly getting a network up and running. 
 
-My Approach
+The Approach
 ----------------
 
 The initial design of the neural network was a simple feed-forward network with two output classes – one for positive predicted move at the close of tomorrow’s market, and one for a negative move at the close of tomorrow’s market. Initial testing indicated this worked well, however, I quickly found that a recurrent neural network with a single hidden layer seemed to work with better results. Intuitively, this makes sense since trends in the stock market continue over time. Testing with Pybrain however masked two large errors in my approach that I discovered after investing a large amount of time.
