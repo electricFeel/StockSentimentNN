@@ -1,4 +1,4 @@
-Old Code...may be incomplete or missing data....reference at your own risk
+Old code...may be incomplete or missing data....reference at your own risk
 
 StockSentimentNN
 ================
